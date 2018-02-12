@@ -11,7 +11,8 @@ def usage():
 
 
 def main():
-	print("Running CryptoTracker ...")
+	print("\nWelcome to CryptoTracker.\n"
+		"**Please see note in README regarding cryptocurrency exchange rates**")
 	while True:
 		currency_code = input("\nEnter a currency code [0 to exit]:\n").upper()
 		if currency_code == "0":
